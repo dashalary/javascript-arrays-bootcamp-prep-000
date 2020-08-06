@@ -24,3 +24,7 @@ function destructivelyRemoveElementFromBeginningOfArray () {
   chocolateBars.unshift();
   return chocolateBars
 }
+
+function removeElementFromBeginningOfArray() {
+  
+}
