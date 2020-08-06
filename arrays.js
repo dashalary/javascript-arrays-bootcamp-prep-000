@@ -20,3 +20,7 @@ function accessElementInArray () {
    console.log(chocolateBars[0]);
 }
 
+function destructivelyRemoveElementFromBeginningOfArray () {
+  chocolateBars.unshift();
+  
+}
