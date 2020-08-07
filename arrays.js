@@ -12,7 +12,7 @@ function destructivelyAddElementToBeginningOfArray(n) {
 }
 
 function addElementToEndOfArray(chocolateBars, candy) {
-  return ...chocolateBars, candy
+  return [...chocolateBars, candy]
 }
 
 function destructivelyAddElementToEndOfArray(n) {
