@@ -17,26 +17,26 @@ function destructivelyAddElementToEndOfArray(n) {
   chocolateBars.push("n");
 }
 
-function accessElementInArray() {
+function accessElementInArray(n) {
    console.log(chocolateBars[0]);
 }
 
-function destructivelyRemoveElementFromBeginningOfArray() {
-  chocolateBars.unshift();
+function destructivelyRemoveElementFromBeginningOfArray(n) {
+  chocolateBars.unshift("n");
   return chocolateBars
 }
 
-function removeElementFromBeginningOfArray() {
+function removeElementFromBeginningOfArray(n) {
   chocolateBars.slice(1);
   return chocolateBars
 }
 
-function destructivelyRemoveElementFromEndOfArray() {
+function destructivelyRemoveElementFromEndOfArray(n) {
   chocolateBars.pop();
   return chocolateBars
 }
 
-function removeElementFromEndOfArray() {
+function removeElementFromEndOfArray(n) {
   chocolateBars.slice(0, chocolateBars.length - 1);
   return chocolateBars
 }
