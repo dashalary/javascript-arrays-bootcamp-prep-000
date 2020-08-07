@@ -6,7 +6,7 @@ return chocolateBars;
 }
 
 function destructivelyAddElementToBeginningOfArray(n) {
-  chocolateBars.unshift("n");
+  chocolateBars.unshift();
 }
 
 function addElementToEndOfArray(n) {
