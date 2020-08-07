@@ -16,10 +16,10 @@ function addElementToEndOfArray(chocolateBars, candy) {
 }
 
 function destructivelyAddElementToEndOfArray(n) {
-  chocolateBars.push();
+  chocolateBars.push(candy);
 }
 
-function accessElementInArray(n) {
+function accessElementInArray(chocolateBars, candy) {
    console.log(chocolateBars[0]);
 }
 
