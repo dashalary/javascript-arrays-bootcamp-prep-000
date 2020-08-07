@@ -14,7 +14,7 @@ function addElementToEndOfArray(n) {
 }
 
 function destructivelyAddElementToEndOfArray(n) {
-  chocolateBars.push("n");
+  chocolateBars.push();
 }
 
 function accessElementInArray(n) {
