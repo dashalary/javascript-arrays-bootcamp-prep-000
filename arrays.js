@@ -8,19 +8,19 @@ function destructivelyAddElementToBeginningOfArray() {
   chocolateBars.unshift("Element");
 }
 
-function addElementToEndOfArray () {
+function addElementToEndOfArray() {
   chocolateBars = ["Element", ...chocolateBars];
 }
 
-function destructivelyAddElementToEndOfArray () {
+function destructivelyAddElementToEndOfArray() {
   chocolateBars.push("Element");
 }
 
-function accessElementInArray () {
+function accessElementInArray() {
    console.log(chocolateBars[0]);
 }
 
-function destructivelyRemoveElementFromBeginningOfArray () {
+function destructivelyRemoveElementFromBeginningOfArray() {
   chocolateBars.unshift();
   return chocolateBars
 }
@@ -41,5 +41,3 @@ function removeElementFromEndOfArray() {
 }
 
 
-  
-}
