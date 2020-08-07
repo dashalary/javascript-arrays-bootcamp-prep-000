@@ -20,7 +20,7 @@ function destructivelyAddElementToEndOfArray(n) {
 }
 
 function accessElementInArray(array, index) {
-   console.log(chocolateBars[0]);
+   return array;
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(n) {
