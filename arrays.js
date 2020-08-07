@@ -1,19 +1,20 @@
-var chocolateBars = ["snickers", "hundred grand", "kitkat","skittles"];
+var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
+
 function addElementToBeginningOfArray(n) {
   chocolateBars = [...chocolateBars, n];
 return chocolateBars;
 }
 
 function destructivelyAddElementToBeginningOfArray(n) {
-  chocolateBars.unshift();
+  chocolateBars.unshift("n");
 }
 
 function addElementToEndOfArray(n) {
   chocolateBars = [n, ...chocolateBars];
 }
 
-function destructivelyAddElementToEndOfArray() {
-  chocolateBars.push(n);
+function destructivelyAddElementToEndOfArray(n) {
+  chocolateBars.push("n");
 }
 
 function accessElementInArray() {
